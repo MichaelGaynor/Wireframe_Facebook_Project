@@ -1,13 +1,15 @@
 #facebook-wrapper{
-
+  font-family: helvetica, sans-serif;
 }
 
 #header{
+  height: 40px;
   /* facebook blue */
   background-color: #3B5998;
 }
 
 #header-inner{
+  line-height: 40px;
   max-width: 900px;
   margin: auto;
   /* This next thing will force the parent to see the size of the floating child */
@@ -18,3 +20,204 @@
   float: left;
   margin-left: 10px;
 }
+
+#fb-logo{
+  background-image: url("https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png");
+  background-position: 0px -13px;
+  /* background-size: 100%; */
+  height: 30px;
+  width: 24px;
+  margin-top: 5px;
+}
+
+#fb-search{
+  height: 30px;
+  width: 25px;
+}
+
+#fb-search input{
+  width: 350px;
+  height: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+
+#right-header{
+  float: right;
+}
+
+.fb-icons{
+  float: left;
+  color: #ffffff;
+  font-size: 14px;
+  height: 24px;
+  min-width: 24px;
+  margin-left: 10px;
+}
+
+.fb-icons.friends,.fb-icons.messages,.fb-icons.notifications{
+  background-image: url("https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png");
+  margin-top: 5px;
+}
+
+.fb-icons.friends{
+  background-position: 0 -11px;
+}
+
+.fb-icons.messages{
+  background-position: 0 -262px;
+}
+
+.fb-icons.notifications{
+  background-position: 0 -61px;
+}
+
+#home-updates .new-feeds{
+  background: rgba(0,0,0,.25);
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+#content{
+  /* Overflow hidden makes sure the floated children pass their height to their parent */
+  overflow: hidden;
+}
+
+#left,#middle,#right{
+  float: left;
+  font-size: 12px;
+}
+
+#left{
+  width: 20%;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#middle{
+  width: 50%;
+  border-left: 1px #cacaca solid;
+  padding-top: 15px;
+}
+
+#right{
+  width: 25%;
+  float: right;
+  margin-top: 16px;
+}
+
+.left-profile .left-profile-name{
+  vertical-align: top;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+#left .header{
+  margin: 30px 10px 10px 10px;
+}
+
+#left .favorites.header{
+  margin: 10px;
+}
+
+#left .item{
+  margin: 10px 10px 10px 15px;
+}
+
+.status-header .status-item{
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+.status-wrapper input{
+  width: 100%;
+  padding: 5px;
+}
+
+.status-header{
+  border-bottom: 1px #cacaca solid;
+  padding: 0 15px 15px 15px;
+}
+
+.friend-name{
+  font-weight: bold;
+}
+.friend-name .info{
+  font-weight: lighter;
+}
+
+.friend-status{
+  border-bottom: 1px #cacaca solid;
+  padding: 15px 15px 15px 15px;
+}
+
+.friend-image{
+}
+
+#right .right-top{
+  border-bottom: 1px #cacaca solid;
+  padding: 15px 15px 15px 15px;
+}
+
+#right .people-link{
+  font-weight: bold;
+}
+
+#right .events-link{
+  font-weight: bold;
+}
+
+#right .sponsored{
+  border-bottom: 1px #cacaca solid;
+  padding: 15px 15px 15px 15px;
+}
+
+#right .sponsored .sponsored-text{
+  font-weight: bold;
+}
+
+#right .adverts{
+  border-bottom: 1px #cacaca solid;
+  padding: 15px 15px 15px 15px;
+  float: left;
+}
+
+#right .advert-title{
+  margin: 0 0 5px 5px;
+  font-weight: bold;
+}
+
+#right .adverts img{
+  float: left;
+}
+
+#right .adverts span{
+  vertical-align: top;
+  line-height: 15px;
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+  max-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
