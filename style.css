@@ -142,15 +142,27 @@
 
 .friend-name{
   font-weight: bold;
+  margin: 10px 0;
 }
 .friend-name .info{
   font-weight: lighter;
+  margin-left: 5px;
 }
 
 .friend-status{
   border-bottom: 1px #cacaca solid;
   padding: 15px 15px 15px 15px;
 }
+
+/* .friend-video{
+  float: left;
+  overflow: hidden;
+}
+
+.friend-video-text{
+  float: left;
+  overflow: hidden;
+} */
 
 .friend-image{
 }
