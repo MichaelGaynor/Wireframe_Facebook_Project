@@ -145,10 +145,10 @@
   display: inline-block;
   font-weight: bold;
   position: relative;
-  left: 400px;
+  left: 70%;
   bottom: 10px;
   background-color: #ffffff;
-  padding: 5px;
+  padding: 5px 17px 5px 6px;
 }
 #arrow-down{
   position: relative;
@@ -166,6 +166,13 @@
   margin: 0 10px;
   float: left;
 }
+
+.friend-comment{
+  display: inline-block;
+  margin: 10px;
+  width: 80%;
+}
+
 .friend-name .info{
   font-weight: lighter;
   margin-left: 5px;
@@ -179,7 +186,7 @@
 
 .friend-content{
   float: left;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .friend-content#video-content-div{
